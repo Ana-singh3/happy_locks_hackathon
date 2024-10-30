@@ -1,0 +1,301 @@
+.frame-child11 {
+    height: 75px;
+    width: 1440px;
+    position: relative;
+    background-color: var(--color-tan-100);
+    display: none;
+    max-width: 100%;
+  }
+  .home3 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 800;
+    z-index: 1;
+  }
+  .home-container {
+    width: 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xl) 0 0;
+    box-sizing: border-box;
+  }
+  .about-us4,
+  .samples3 {
+    position: relative;
+    font-weight: 800;
+    z-index: 1;
+    margin-left: -22px;
+  }
+  .about-us4 {
+    flex: 1;
+    white-space: nowrap;
+  }
+  .samples3 {
+    width: 122px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .frame-parent8 {
+    margin: 0;
+    width: 368px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-saddlebrown-100);
+    font-family: var(--font-tajawal);
+  }
+  .order-now3 {
+    width: 142px;
+    height: 37px;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    flex-shrink: 0;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+    z-index: 1;
+  }
+  .order-now-wrapper1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contact-us3,
+  .sign-in3 {
+    position: relative;
+    font-weight: 800;
+    white-space: nowrap;
+    z-index: 1;
+    margin-left: -26px;
+  }
+  .contact-us3 {
+    flex: 1;
+  }
+  .sign-in3 {
+    height: 37px;
+    width: 95px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .frame-parent9,
+  .rectangle-parent8 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent9 {
+    margin: 0;
+    width: 407px;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-saddlebrown-100);
+    font-family: var(--font-tajawal);
+  }
+  .rectangle-parent8 {
+    align-self: stretch;
+    background-color: var(--color-tan-100);
+    justify-content: space-between;
+    padding: var(--padding-6xl) var(--padding-base) var(--padding-smi)
+      var(--padding-8xl);
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: var(--gap-xl);
+  }
+  .desktop-9-child {
+    width: 837px;
+    height: 739px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    max-width: 100%;
+  }
+  .image-3-icon1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 949px;
+    object-fit: cover;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .what-sets-us {
+    font-size: var(--font-size-13xl);
+    font-family: var(--font-dangrek);
+    color: #643a08;
+  }
+  .what-sets-us-apart {
+    margin: 0;
+  }
+  .blank-line2 {
+    font-weight: 500;
+    font-family: var(--font-darker-grotesque);
+    color: var(--color-black);
+  }
+  .blank-line1 {
+    margin: 0;
+  }
+  .innovative-solutions1 {
+    color: #0e4018;
+  }
+  .innovative-solutions,
+  .span,
+  .span1 {
+    font-weight: 600;
+    font-family: var(--font-darker-grotesque);
+  }
+  .span1 {
+    font-weight: 500;
+  }
+  .innovative-solutions-we-spe1 {
+    line-height: 37px;
+  }
+  .innovative-solutions-we-spe {
+    margin: 0;
+  }
+  .commitment-to-sustainability3 {
+    color: #043509;
+  }
+  .blank-line3,
+  .commitment-to-sustainability2,
+  .span2 {
+    font-weight: 600;
+    font-family: var(--font-darker-grotesque);
+  }
+  .blank-line3 {
+    font-weight: 500;
+  }
+  .commitment-to-sustainability1 {
+    line-height: 37px;
+  }
+  .commitment-to-sustainability {
+    margin: 0;
+  }
+  .customization-and-flexibility3 {
+    color: #033308;
+  }
+  .customization-and-flexibility2,
+  .span3 {
+    font-weight: 600;
+    font-family: var(--font-darker-grotesque);
+  }
+  .blank-line4,
+  .blank-line5,
+  .commitment-to-quality {
+    font-weight: 500;
+    font-family: var(--font-darker-grotesque);
+  }
+  .commitment-to-quality {
+    font-weight: 600;
+    color: #03300a;
+  }
+  .customization-and-flexibility1 {
+    line-height: 37px;
+  }
+  .customization-and-flexibility {
+    margin: 0;
+  }
+  .join-us-in,
+  .span4 {
+    font-weight: 500;
+    font-family: var(--font-darker-grotesque);
+  }
+  .join-us-in {
+    font-weight: 600;
+    color: #083004;
+  }
+  .at-terrapak-quality-is-non-ne1 {
+    line-height: 37px;
+  }
+  .at-terrapak-quality-is-non-ne {
+    margin: 0;
+  }
+  .together-we-have-the-power-to1 {
+    line-height: 37px;
+  }
+  .together-we-have-the-power-to {
+    margin: 0;
+  }
+  .blank-line8 {
+    font-weight: 500;
+  }
+  .blank-line7 {
+    line-height: 37px;
+  }
+  .blank-line6 {
+    margin: 0;
+  }
+  .choose-terrapak-sustainable {
+    font-weight: 500;
+  }
+  .choose-terrapak-sustainable-pa1 {
+    line-height: 37px;
+  }
+  .choose-terrapak-sustainable-pa {
+    margin: 0;
+    font-size: var(--font-size-13xl);
+    color: #030216;
+    font-family: var(--font-dancing-script);
+  }
+  .blank-line11 {
+    font-weight: 500;
+  }
+  .blank-line10 {
+    line-height: 37px;
+  }
+  .blank-line9 {
+    margin: 0;
+  }
+  .what-sets-us-container {
+    position: absolute;
+    top: 2px;
+    left: 70px;
+    text-align: center;
+    display: inline-block;
+    width: 1296px;
+    z-index: 2;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-darker-grotesque);
+  }
+  .image-3-parent {
+    align-self: stretch;
+    height: 949px;
+    position: relative;
+  }
+  .desktop-9 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-silver);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 775px) {
+    .frame-parent8 {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .what-sets-us-container {
+      font-size: var(--font-size-lgi);
+    }
+  }
+  

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:  Tajawal;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100vw;
+}
+.container{
+    width: auto;
+    margin: 0 auto;
+}
+body{
+    /* width: fit-content; */
+    height: 100vh;;
+   
+    background-image: url("bgimg1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center ; 
+    /* background-position: 0.1rem; */
+    background-size: cover;
+}
+/* .imgbg{
+    width:100%;
+    position: absolute;
+} */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    background-color: #B19470;
+    height: 75px;
+}
+.nav-item,.nav-item1,.nav-item2{
+    display: flex;
+    gap: 2rem;
+    padding: 0 4rem;
+}
+.nav-item2{
+    margin-left: 490px;
+}
+.nav-item div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
+.nav-item div a{
+    color: #714423;
+}
+a{
+    text-decoration: none;
+}
+.help{
+    margin-top: 0.5%;
+    font-size: 54px;
+    font-weight: 400px;
+    font-family:Dangrek;
+    color: #714423;
+}
+.box{
+    margin-top: 6.5%;
+    display:flex;
+    
+    justify-content: space-evenly;
+    gap:50px;
+
+}
+.box1,.box2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height:350px;
+    width:556px;
+    border-radius: 10%;
+    gap:10px;
+    background-color:#D6D9B0 ;
+}
+.green{
+    font-size: 35px;
+    font-family:Delius;
+    padding-top: 40px;
+    color: #012F29;
+
+}
+.box1{
+    font-size: 20px;
+}
+.box2{
+    font-size: 20px;
+}
+.tc,.pp,.sp,.rp{
+    color: #4A0707;
+}
+.footerr{
+display:flex;
+align-items:
+position: fixed;
+bottom: 0;
+
+
+}
+.footer1{
+    flex-direction:row;
+    justify-content: space-evenly;
+    height: 67px;
+    width: 100%;
+    background-color: #7c3a0b;
+    opacity: 50%;
+    position: fixed;
+    bottom: 0;
+}
+.footer1 div{
+   
+
+    font-size: 3.25rem;
+    color: white;
+    margin-left: 15px;
+}
+span{
+    margin-right: 15px;
+}

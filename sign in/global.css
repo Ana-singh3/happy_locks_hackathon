@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-tajawal: Tajawal;
+    --font-sunflower: Sunflower;
+    --font-suwannaphum: Suwannaphum;
+    --font-dangrek: Dangrek;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+    --font-size-11xl: 30px;
+    --font-size-lg: 18px;
+    --font-size-5xl: 24px;
+    --font-size-6xl: 25px;
+  
+    /* Colors */
+    --color-saddlebrown-100: #714423;
+    --color-gray: rgba(0, 0, 0, 0.6);
+    --color-tan-100: #b19470;
+    --color-tan-200: rgba(177, 148, 112, 0.44);
+  
+    /* Paddings */
+    --padding-6xl: 25px;
+    --padding-140xl: 159px;
+    --padding-xl: 20px;
+    --padding-18xl: 37px;
+  
+    /* Border radiuses */
+    --br-8xs: 5px;
+  }
+  

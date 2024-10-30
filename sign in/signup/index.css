@@ -1,0 +1,626 @@
+.frame-child1 {
+    height: 75px;
+    width: 1440px;
+    position: relative;
+    background-color: var(--color-tan-100);
+    display: none;
+    max-width: 100%;
+  }
+  .home1 {
+    align-self: stretch;
+    height: 37px;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .f-r-a-m-e-h-e-a-d-e-r {
+    width: 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xl) 0 0;
+    box-sizing: border-box;
+  }
+  .about-us1,
+  .samples1 {
+    height: 37px;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    z-index: 1;
+    margin-left: -22px;
+  }
+  .about-us1 {
+    flex: 1;
+    white-space: nowrap;
+  }
+  .samples1 {
+    width: 122px;
+    flex-shrink: 0;
+  }
+  .f-r-a-m-e-h-e-a-d-e-r-parent {
+    margin: 0;
+    width: 368px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-saddlebrown-100);
+    font-family: var(--font-tajawal);
+  }
+  .order-now1 {
+    width: 142px;
+    height: 37px;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    flex-shrink: 0;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+    z-index: 1;
+  }
+  .order-now-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contact-us1,
+  .sign-in1 {
+    height: 37px;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    white-space: nowrap;
+    z-index: 1;
+    margin-left: -26px;
+  }
+  .contact-us1 {
+    flex: 1;
+  }
+  .sign-in1 {
+    width: 95px;
+    flex-shrink: 0;
+  }
+  .frame-nav,
+  .group-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-nav {
+    margin: 0;
+    width: 407px;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-saddlebrown-100);
+    font-family: var(--font-tajawal);
+  }
+  .group-header {
+    align-self: stretch;
+    background-color: var(--color-tan-100);
+    justify-content: space-between;
+    padding: var(--padding-6xl) var(--padding-base) var(--padding-smi)
+      var(--padding-8xl);
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: var(--gap-xl);
+  }
+  .label-password-confirmation {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    right: 0;
+    bottom: -1px;
+    left: 0;
+    background-color: var(--color-navajowhite-200);
+    filter: blur(4px);
+  }
+  .sign-up {
+    margin: 0;
+    height: 124.2px;
+    width: 342.5px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .sign-up-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0 97px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .emailuser-id,
+  .name,
+  .password1 {
+    align-self: stretch;
+    height: 20px;
+    position: relative;
+    font-size: var(--font-size-6xl);
+    font-weight: 800;
+    font-family: var(--font-tajawal);
+    color: var(--color-saddlebrown-100);
+    text-align: right;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .frame-wrapper1,
+  .name-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .name-parent {
+    align-self: stretch;
+    gap: 26.5px;
+  }
+  .frame-wrapper1 {
+    width: 200px;
+    padding: 3.2000000000000455px 0 0;
+    box-sizing: border-box;
+    min-width: 200px;
+  }
+  .frame-child2 {
+    height: 33.5px;
+    width: 491.1px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-tan-200);
+    border: 2px solid var(--color-saddlebrown-100);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .enter-your-name {
+    width: 300px;
+    border: 0;
+    outline: 0;
+    font-weight: 300;
+    font-family: var(--font-suwannaphum);
+    font-size: var(--font-size-mid);
+    background-color: transparent;
+    height: 15px;
+    position: relative;
+    color: var(--color-gray);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    z-index: 2;
+  }
+  .frame-child3,
+  .rectangle-parent2 {
+    border-radius: var(--br-8xs);
+    background-color: var(--color-tan-200);
+    border: 2px solid var(--color-saddlebrown-100);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .rectangle-parent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10.600000000000136px 24.09999999999991px 7.899999999999864px;
+    z-index: 1;
+  }
+  .frame-child3 {
+    height: 33.5px;
+    width: 491.1px;
+    position: relative;
+    display: none;
+  }
+  .enter-user-id {
+    width: 300px;
+    border: 0;
+    outline: 0;
+    font-weight: 300;
+    font-family: var(--font-suwannaphum);
+    font-size: var(--font-size-mid);
+    background-color: transparent;
+    height: 15px;
+    position: relative;
+    color: var(--color-gray);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    z-index: 2;
+  }
+  .frame-child4,
+  .rectangle-parent3 {
+    border-radius: var(--br-8xs);
+    background-color: var(--color-tan-200);
+    border: 2px solid var(--color-saddlebrown-100);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .rectangle-parent3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 11.400000000000093px 24.09999999999991px 7.099999999999909px;
+    z-index: 1;
+  }
+  .frame-child4 {
+    height: 33.5px;
+    width: 491.1px;
+    position: relative;
+    display: none;
+  }
+  .enter-password {
+    width: 300px;
+    border: 0;
+    outline: 0;
+    font-weight: 300;
+    font-family: var(--font-suwannaphum);
+    font-size: var(--font-size-mid);
+    background-color: transparent;
+    height: 15px;
+    position: relative;
+    color: var(--color-gray);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    z-index: 2;
+  }
+  .rectangle-parent4 {
+    align-self: stretch;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-tan-200);
+    border: 2px solid var(--color-saddlebrown-100);
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 9.700000000000044px 24.09999999999991px 8.799999999999955px;
+    z-index: 1;
+  }
+  .frame-parent2,
+  .frame-parent3,
+  .rectangle-parent4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent3 {
+    flex: 1;
+    flex-direction: column;
+    gap: 9.649999999999975px;
+    min-width: 319px;
+  }
+  .frame-parent2 {
+    width: 707px;
+    flex-direction: row;
+    gap: 15.900000000000093px;
+  }
+  .confirm-password {
+    align-self: stretch;
+    height: 20px;
+    position: relative;
+    font-size: var(--font-size-6xl);
+    font-weight: 800;
+    font-family: var(--font-tajawal);
+    color: var(--color-saddlebrown-100);
+    text-align: right;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .confirm-password-wrapper {
+    width: 241px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 9.799999999999956px 0 0;
+    box-sizing: border-box;
+  }
+  .frame-child5 {
+    height: 33.5px;
+    width: 491.1px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-tan-200);
+    border: 2px solid var(--color-saddlebrown-100);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .re-enter-password-to {
+    width: 300px;
+    border: 0;
+    outline: 0;
+    font-weight: 300;
+    font-family: var(--font-suwannaphum);
+    font-size: var(--font-size-mid);
+    background-color: transparent;
+    height: 15px;
+    position: relative;
+    color: var(--color-gray);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    z-index: 2;
+  }
+  .frame-parent4,
+  .rectangle-parent5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .rectangle-parent5 {
+    flex: 1;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-tan-200);
+    border: 2px solid var(--color-saddlebrown-100);
+    box-sizing: border-box;
+    padding: 11.799999999999956px 24.09999999999991px 6.7000000000000455px;
+    min-width: 300px;
+    z-index: 1;
+  }
+  .frame-parent4 {
+    align-self: stretch;
+    flex-wrap: wrap;
+    gap: 15.900000000000093px;
+  }
+  .phone-no {
+    align-self: stretch;
+    height: 20px;
+    position: relative;
+    font-size: var(--font-size-6xl);
+    font-weight: 800;
+    font-family: var(--font-tajawal);
+    color: var(--color-saddlebrown-100);
+    text-align: right;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .phone-no-wrapper {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7.700000000000045px 0 0;
+    box-sizing: border-box;
+  }
+  .frame-child6 {
+    height: 33.5px;
+    width: 491.1px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-tan-200);
+    border: 2px solid var(--color-saddlebrown-100);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .enter-user-id1 {
+    width: 300px;
+    border: 0;
+    outline: 0;
+    font-weight: 300;
+    font-family: var(--font-suwannaphum);
+    font-size: var(--font-size-mid);
+    background-color: transparent;
+    height: 15px;
+    position: relative;
+    color: var(--color-gray);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    z-index: 2;
+  }
+  .rectangle-parent6 {
+    flex: 1;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-tan-200);
+    border: 2px solid var(--color-saddlebrown-100);
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10.600000000000136px 24.09999999999991px 7.899999999999864px;
+    min-width: 300px;
+    z-index: 1;
+  }
+  .frame-parent1,
+  .frame-parent5,
+  .rectangle-parent6 {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent5 {
+    width: 707px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 15.900000000000093px;
+  }
+  .frame-parent1 {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10.100000000000025px;
+  }
+  .frame-child7 {
+    height: 37px;
+    width: 278.8px;
+    position: relative;
+    border-radius: var(--br-6xl);
+    display: none;
+  }
+  .register {
+    height: 27.3px;
+    flex: 1;
+    position: relative;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: var(--font-tajawal);
+    color: var(--color-navajowhite-100);
+    text-align: center;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .frame-wrapper2,
+  .vector-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .vector-group {
+    cursor: pointer;
+    border: 0 solid var(--color-saddlebrown-100);
+    padding: 0 55px 9.700000000000044px var(--padding-40xl);
+    background-color: var(--color-saddlebrown-100);
+    width: 278.8px;
+    border-radius: var(--br-6xl);
+    justify-content: flex-start;
+    z-index: 1;
+  }
+  .vector-group:hover {
+    background-color: var(--color-sienna);
+    border: 2px solid var(--color-sienna);
+    box-sizing: border-box;
+  }
+  .frame-wrapper2 {
+    width: 593.2px;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    max-width: 100%;
+  }
+  .desktop-7,
+  .frame-form,
+  .label-password-confirmation-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-form {
+    margin: 0;
+    width: 748px;
+    align-items: flex-end;
+    gap: 42.200000000000045px;
+    max-width: 100%;
+  }
+  .desktop-7,
+  .label-password-confirmation-parent {
+    position: relative;
+    align-items: flex-start;
+  }
+  .label-password-confirmation-parent {
+    align-self: stretch;
+    padding: 35px 295px 456px;
+    box-sizing: border-box;
+    gap: 47.59999999999991px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 80px;
+    color: var(--color-saddlebrown-100);
+    font-family: var(--font-dangrek);
+  }
+  .desktop-7 {
+    width: 100%;
+    background-color: var(--color-white);
+    overflow: hidden;
+    letter-spacing: normal;
+  }
+
+  #buttons{
+    color: #714423;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 950px) {
+    .f-r-a-m-e-h-e-a-d-e-r-parent {
+      display: none;
+    }
+    .sign-up {
+      font-size: 40px;
+    }
+    .frame-wrapper1 {
+      flex: 1;
+    }
+    .frame-parent2 {
+      flex-wrap: wrap;
+    }
+    .register {
+      font-size: var(--font-size-9xl);
+    }
+    .frame-form {
+      gap: 21px 42.2px;
+    }
+    .label-password-confirmation-parent {
+      gap: 24px 47.6px;
+      padding: 23px 147px 296px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .label-password-confirmation-parent {
+      padding-top: var(--padding-xl);
+      padding-bottom: 192px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .sign-up {
+      font-size: var(--font-size-5xl);
+    }
+    .sign-up-wrapper {
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .confirm-password,
+    .emailuser-id,
+    .name,
+    .password1,
+    .phone-no {
+      font-size: var(--font-size-xl);
+    }
+    .register {
+      font-size: var(--font-size-2xl);
+    }
+    .label-password-confirmation-parent,
+    .vector-group {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  
